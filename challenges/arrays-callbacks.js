@@ -1,3 +1,5 @@
+// consume() callbacks are arrow f(x)s
+//
 // ==== ADVANCED Array Methods ====
 
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
@@ -73,9 +75,9 @@ function consume(a, b, cb){
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-const add = function(a, b) { return a+b; };
-const multiply = function(a, b) { return a*b; };
-const greeting = function(firstname, surname) { return `Hello ${firstname} ${surname}, nice to meet you!`; };
+const add = (a, b) => a + b;
+const multiply = (a, b) => a * b;
+const greeting = (firstname, surname) => `Hello ${firstname} ${surname}, nice to meet you!`;
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 console.log(consume(2, 2, add)); // 4
