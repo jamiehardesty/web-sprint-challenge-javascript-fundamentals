@@ -26,14 +26,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+[x] .forEach: great if you don't need the returned array; returns undefined whereas .map: returns a new array with data you can change/use
 
 2. Explain the difference between a callback and a higher order function.
+[x] A higher order function receives a function as an argument and can return a function. Callbacks are passed into another function, to be used by that other function. 
 
 3. What is closure?
+[x] Closure has access to outside of its scope.
 
 4. Describe the four rules of the 'this' keyword.
+[a] this is global in non-strict (returns the entire window) and undefined in strict mode.
+[b] this points to the object on which the function is called, example: this.cat 
+[c] this can point to a certain value by using call/apply/bind
+[d] new keyword creates a new object, and this points to it 
 
 5. Why do we need super() in an extended class?
+[x] To create a child class of the parent.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
