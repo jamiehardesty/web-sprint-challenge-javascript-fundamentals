@@ -1,3 +1,5 @@
+//completed stretch 
+//
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 // Hi, reviewer, I'll refactor into class syntax here but I won't paste my prototypes. Instead, I'm using the side bar in VSCode as a reference to avoid scrolling. Thanks!
 // Adding B to the naming convention since it is interfering with prototypes.js
