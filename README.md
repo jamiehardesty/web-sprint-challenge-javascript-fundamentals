@@ -32,7 +32,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 [x] A higher order function receives a function as an argument and can return a function. Callbacks are passed into another function, to be used by that other function. 
 
 3. What is closure?
-[x] Closure has access to outside of its scope.
+[x] Closure has access to outside of its scope. They are created when the function is created. A script can share the same definitions but store different lexical environments.
 
 4. Describe the four rules of the 'this' keyword.
 [a] this is global in non-strict (returns the entire window) and undefined in strict mode.
